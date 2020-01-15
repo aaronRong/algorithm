@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1579068059 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+
+1579067771 d:\01.work\11.github\algorithm\algorithm\include\main.h
+
+1579068010 source:d:\01.work\11.github\algorithm\algorithm\sources\bubble_sort.c
+	<stdio.h>
+	<stdlib.h>
+	"main.h"
+

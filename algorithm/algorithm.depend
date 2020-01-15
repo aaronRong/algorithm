@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1579076171 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
+1579082743 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
 	<stdio.h>
 	<stdlib.h>
 	"main.h"
 	"bubble_sort.h"
 	"recursion.h"
 	"half_search.h"
+	"linklist.h"
 	"queue.h"
 
 1579067771 d:\01.work\11.github\algorithm\algorithm\include\main.h
@@ -38,8 +39,16 @@
 	<stdbool.h>
 	"main.h"
 
-1579076842 source:d:\01.work\11.github\algorithm\algorithm\sources\queue.c
+1579077125 source:d:\01.work\11.github\algorithm\algorithm\sources\queue.c
 	<stdio.h>
 	<stdlib.h>
 	"queue.h"
+
+1579082832 source:d:\01.work\11.github\algorithm\algorithm\sources\linklist.c
+	<stdio.h>
+	<stdlib.h>
+	"linklist.h"
+
+1579081896 d:\01.work\11.github\algorithm\algorithm\include\linklist.h
+	"main.h"
 

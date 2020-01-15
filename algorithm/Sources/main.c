@@ -4,13 +4,15 @@
 #include "bubble_sort.h"
 #include "recursion.h"
 #include "half_search.h"
+#include "linklist.h"
 #include "queue.h"
 
 
 //#define BUBBLE_SORT_TEST
 //#define RECURSION_TEST
 //#define HALF_SEARCH_TEST
-#define QUEUE_TEST
+//#define QUEUE_TEST
+#define LINKLIST_TEST
 
 int main()
 {
@@ -73,6 +75,21 @@ int main()
     }
 
 #endif // QUEUE_TEST
+
+#ifdef LINKLIST_TEST
+    int ret = 0;
+    LinkNode *head = link_create(10);
+    print_linklist(head);
+
+    link_change(head, 5, 123);
+    print_linklist(head);
+
+    link_delete(head, 4);
+    print_linklist(head);
+
+    link_insert(head, 2, 321);
+    print_linklist(head);
+#endif // LINKLIST_TEST
 
     system("pause");
 

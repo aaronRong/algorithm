@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="Include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -31,7 +32,20 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="Include/bubble_sort.h" />
+		<Unit filename="Include/half_search.h" />
+		<Unit filename="Include/main.h" />
+		<Unit filename="Include/recursion.h" />
+		<Unit filename="Sources/bubble_sort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/half_search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Sources/recursion.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1579069417 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
+1579071318 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
 	<stdio.h>
 	<stdlib.h>
 	"bubble_sort.h"
@@ -22,5 +22,13 @@
 	"main.h"
 
 1579069446 d:\01.work\11.github\algorithm\algorithm\include\bubble_sort.h
+	"main.h"
+
+1579071702 source:d:\01.work\11.github\algorithm\algorithm\sources\half_search.c
+	<stdio.h>
+	<stdlib.h>
+	"half_search.h"
+
+1579069794 d:\01.work\11.github\algorithm\algorithm\include\half_search.h
 	"main.h"
 

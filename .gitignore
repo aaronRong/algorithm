@@ -1,4 +1,4 @@
-algorithm/bin/
-algorithm/obj/
+algorithm/bin/*
+algorithm/obj/*
 *.o
 *.exe

@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "bubble_sort.h"
+#include "recursion.h"
 #include "main.h"
 
-#define BUBBLE_SORT_TEST
+//#define BUBBLE_SORT_TEST
+#define RECURSION_TEST
 
 int main()
 {
@@ -21,6 +24,14 @@ int main()
         printf("array[%d]:%d ", i, array[i]);
     printf("\n");
 #endif
+
+#ifdef RECURSION_TEST
+    uint32_t num = 10;
+    uint32_t ret = 0;
+
+    ret = recursion(num);
+    printf("recursion number:%d\n", ret);
+#endif // RECURSION_TEST
 
     system("pause");
 

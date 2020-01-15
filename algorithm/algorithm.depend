@@ -1,13 +1,26 @@
 # depslib dependency file v1.0
-1579068059 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
+1579069417 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
 	<stdio.h>
 	<stdlib.h>
+	"bubble_sort.h"
+	"recursion.h"
 	"main.h"
 
 1579067771 d:\01.work\11.github\algorithm\algorithm\include\main.h
 
-1579068010 source:d:\01.work\11.github\algorithm\algorithm\sources\bubble_sort.c
+1579069400 source:d:\01.work\11.github\algorithm\algorithm\sources\bubble_sort.c
 	<stdio.h>
 	<stdlib.h>
+	"bubble_sort.h"
+
+1579069369 source:d:\01.work\11.github\algorithm\algorithm\sources\recursion.c
+	<stdio.h>
+	<stdlib.h>
+	"recursion.h"
+
+1579069383 d:\01.work\11.github\algorithm\algorithm\include\recursion.h
+	"main.h"
+
+1579069446 d:\01.work\11.github\algorithm\algorithm\include\bubble_sort.h
 	"main.h"
 

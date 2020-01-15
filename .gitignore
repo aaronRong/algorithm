@@ -1,0 +1,4 @@
+algorithm/bin/
+algorithm/obj/
+*.o
+*.exe

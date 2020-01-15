@@ -6,7 +6,9 @@
 #include <stdlib.h>
 #include "half_search.h"
 
-/* */
+/*
+*
+*/
 uint32_t half_search(uint32_t array[], uint32_t size, uint32_t search_val)
 {
     uint32_t start = 0;

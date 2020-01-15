@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1579071318 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
+1579076171 source:d:\01.work\11.github\algorithm\algorithm\sources\main.c
 	<stdio.h>
 	<stdlib.h>
+	"main.h"
 	"bubble_sort.h"
 	"recursion.h"
-	"main.h"
+	"half_search.h"
+	"queue.h"
 
 1579067771 d:\01.work\11.github\algorithm\algorithm\include\main.h
 
@@ -13,7 +15,7 @@
 	<stdlib.h>
 	"bubble_sort.h"
 
-1579069369 source:d:\01.work\11.github\algorithm\algorithm\sources\recursion.c
+1579074048 source:d:\01.work\11.github\algorithm\algorithm\sources\recursion.c
 	<stdio.h>
 	<stdlib.h>
 	"recursion.h"
@@ -24,11 +26,20 @@
 1579069446 d:\01.work\11.github\algorithm\algorithm\include\bubble_sort.h
 	"main.h"
 
-1579071702 source:d:\01.work\11.github\algorithm\algorithm\sources\half_search.c
+1579074055 source:d:\01.work\11.github\algorithm\algorithm\sources\half_search.c
 	<stdio.h>
 	<stdlib.h>
 	"half_search.h"
 
 1579069794 d:\01.work\11.github\algorithm\algorithm\include\half_search.h
 	"main.h"
+
+1579076030 d:\01.work\11.github\algorithm\algorithm\include\queue.h
+	<stdbool.h>
+	"main.h"
+
+1579076842 source:d:\01.work\11.github\algorithm\algorithm\sources\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
 

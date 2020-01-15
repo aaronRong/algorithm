@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 #include "bubble_sort.h"
 #include "recursion.h"
-#include "main.h"
+#include "half_search.h"
+#include "queue.h"
+
 
 //#define BUBBLE_SORT_TEST
 //#define RECURSION_TEST
-#define HALF_SEARCH_TEST
+//#define HALF_SEARCH_TEST
+#define QUEUE_TEST
 
 int main()
 {
@@ -46,6 +50,29 @@ int main()
     ret = half_search(array, sizeof(array)/sizeof(uint32_t), search_val);
     printf("half result:%d\n", ret);
 #endif // HALF_SEARCH_TEST
+
+#ifdef QUEUE_TEST
+    Queue_S queue;
+    int data = 0;
+
+    queue_init(&queue);
+    for(int i = 0; i < 6; i++)
+    {
+        if(data = enqueue(&queue, i+10))
+            printf("enqueue data:%d\n", data);
+        else
+            printf("en queue fail\n");
+    }
+
+    for(int i = 0; i < 6; i++)
+    {
+        if(data = dequeue(&queue))
+            printf("dequeue data:%d\n", data);
+        else
+            printf("en queue fail\n");
+    }
+
+#endif // QUEUE_TEST
 
     system("pause");
 

@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include "recursion.h"
 
+/*
+*
+*/
 uint32_t recursion(uint32_t number)
 {
     if(number == 0)
